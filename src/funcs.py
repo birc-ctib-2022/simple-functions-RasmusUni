@@ -33,7 +33,7 @@ def longest(x, y):
     """
     if len(x)>len(y):
         longest=x
-    elif len(y)>len(x)
+    elif len(y)>len(x):
         longest=y
     else:
         longest="Equal in length"
