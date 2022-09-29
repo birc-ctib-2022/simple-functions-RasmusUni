@@ -1,7 +1,6 @@
 # This directory will be checked with pytest. It will examine
 # all files that start with test_*.py and run all functions with
 # names that start with test_
-from math import sqrt
 
 from funcs import (
     prod,
@@ -12,18 +11,16 @@ from funcs import (
 
 
 def test_prod():
-    assert prod(1, 2, 3) == 6
+    assert prod(1, 2, 3) == "TEST ME"
 
 a=10
 def test_prod2():
-    assert prod2(2) == 200
+    assert prod2(2) == "TEST ME"
 
 
 def test_longest():
-    assert longest([1, 2, 3], [4, 5]) == [1, 2, 3]
+    assert longest([1, 2, 3], [4, 5]) == "TEST ME"
 
-def test_longest2():
-    assert longest([1, 2, 3], [1, 2, 3]) == "Equal in length"
 
 def test_dist():
-    assert dist((1, 2), (3, 4)) == sqrt((3-1)^2 + (4-2)^2) 
+    assert dist((1, 2), (3, 4)) == "TEST ME"
